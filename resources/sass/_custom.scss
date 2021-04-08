@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue !important;
+}
+.custom-size + .custom-size {
+    margin-left: 5px;
+}
+.custom-padding {
+    padding-bottom: 30px;
+}
+.custom-padding + .custom-padding {
+    padding: 0 0 30px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.custom-card {
+    
+    width: 100%;
+    height: auto;
+}
+a:hover {
+    text-decoration: none;
+}
+.custom-card {
+    transition: 300ms;
+}
+.custom-card:hover {
+    transform: scale(1.1);
+}
+
+.custom-flex {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
